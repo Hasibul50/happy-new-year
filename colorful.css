@@ -98,6 +98,26 @@
     width: 1320px;
     height: 600px;
     margin: 0 auto;
+    position: relative;
+}
+
+.join {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    width: 103px;
+    height: 24px;
+    padding-left: 80px;
+    cursor: pointer;
+}
+
+.section-img-content img {
+    position: absolute;
+    right: 15%;
+    top: 14%;
+
 }
 
 /* section2 headings */
@@ -160,6 +180,7 @@
     color: #FFFFFF;
     border: 0px solid rgb(255, 0, 0);
     font-size: 20px;
+    cursor: pointer;
 
 }
 
@@ -460,6 +481,7 @@ input[type="email"] {
     top: 2px;
     right: -52px;
     border: 0px;
+    cursor: pointer;
 }
 
 
@@ -515,6 +537,7 @@ address {
     margin: 0 auto;
     padding-top: 50px;
     padding-bottom: 50px;
+    cursor: pointer;
 
 }
 
@@ -549,4 +572,5 @@ address {
     height: 29px;
     line-height: 29px;
     background-color: black;
+    cursor: pointer;
 }
