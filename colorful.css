@@ -47,6 +47,7 @@
     background-image: url("resources/New\ Year\ Photo.png");
     width: 802.9px;
     height: 500px;
+    margin: 50px 0 0 0;
 }
 
 .section1-content {
@@ -541,10 +542,7 @@ address {
 
 }
 
-.images img {
-    border: 2px dashed white;
 
-}
 
 .footer-inside2 {
     display: flex;
