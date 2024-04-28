@@ -25,11 +25,11 @@
     font-size: 32px;
     font-weight: 400;
     line-height: 40px;
-    color: rgb(255, 255, 255);
+    color: rgb(228, 225, 225);
 }
 
 .party-celeb {
-    color: rgb(255, 255, 255);
+    color: rgb(224, 224, 224);
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
@@ -227,12 +227,161 @@
     padding: 30px;
 }
 
-/* section5 related css */
-.section5 {
-    font-family: Merriweather;
+
+/* section 6 */
+
+.section6-container {
     width: 1320px;
     height: 986.07px;
+    margin: 0 auto;
+
 }
+
+.relative img {
+    width: 429px;
+    height: 433px
+}
+
+.section6-h3 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section6-h2 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section6-p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.section6-span {
+    color: #FF0000;
+}
+
+.relative {
+    height: 662.07px;
+    width: 1320px;
+    background-repeat: no-repeat;
+    background-image: url("resources/Rectangle\ 2.png");
+    background-position: bottom;
+    position: relative;
+    margin: 0 auto;
+}
+
+.relative .section6-first {
+    position: absolute;
+    right: 0;
+    top: 1px;
+}
+
+.relative2 {
+    position: relative;
+    border: 2px solid black;
+}
+
+.section6-box {
+    position: absolute;
+
+    bottom: 0px;
+    width: 693.82px;
+    height: 557.96px;
+}
+
+.section6-box2 {
+    position: absolute;
+    right: 240px;
+}
+
+/* section 7 */
+
+
+.section7 {
+    width: 1368px;
+    height: 1166px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+
+.shop {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: self-start;
+    height: 850px;
+
+
+}
+
+.shop img {
+    /* box-shadow: 2px 2px 5px rgba(0,0 ,0 , .5); */
+    border-radius: 16px;
+    cursor: pointer;
+    transition: .4s;
+    padding-top: 20px;
+}
+
+.shop img:hover {
+    transform: scale(1.1);
+    z-index: 2;
+
+
+
+}
+
+.section7-h5 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px
+}
+
+.section7-h2 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+}
+
+.section7-p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 928.58px;
+    height: 64.17px;
+}
+
+.section7 img {
+    width: 439.42px;
+    height: 425.16px;
+    margin: 5px;
+}
+
+.items {
+    height: 451.16px;
+}
+
 
 /* section 8 */
 .section8 {
@@ -243,6 +392,8 @@
     border-radius: 16px;
 
     background: rgba(255, 0, 0, 0.05);
+    margin-bottom: 100px;
+
 
 }
 
@@ -286,6 +437,13 @@ input[type="email"] {
     border-right: 0;
 }
 
+.form {
+    position: relative;
+    width: 648px;
+    height: 72px;
+    margin: 0 auto;
+}
+
 .section8-bttn {
     color: rgb(255, 255, 255);
     font-family: Inter;
@@ -300,7 +458,11 @@ input[type="email"] {
     border-radius: 0px 50px 50px 0px;
 
     background: rgb(255, 0, 0);
+    position: absolute;
+    top: 2px;
+    right: -52px;
 }
+
 
 footer {
     /* width: 1600px; */
@@ -340,6 +502,8 @@ address {
     width: 1300px;
     height: 180px;
     margin: 0 auto;
+    border-bottom: 1px solid #FFFFFF26;
+
 }
 
 .images {
@@ -350,10 +514,14 @@ address {
     justify-content: space-around;
     width: 300px;
     margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 
 .images img {
     border: 2px dashed white;
+
 }
 
 .footer-inside2 {
@@ -361,6 +529,8 @@ address {
     width: 1300px;
     justify-content: space-between;
     margin: 0 auto;
+    border-top: 2px solid #FFFFFF26;
+    padding-top: 50px;
 }
 
 .copyrt {
@@ -380,73 +550,4 @@ address {
     height: 29px;
     line-height: 29px;
     background-color: black;
-}
-
-.section7 {
-    width: 1368px;
-    height: 1166px
-}
-
-.shop {
-    display: flex;
-    margin: 0 auto;
-    width: 800;
-    height: 1166px;
-    margin: 0 auto;
-
-}
-
-.section7 {
-    width: 1368px;
-    height: 1166px;
-    /* border: 2px solid red; */
-    margin: 0 auto;
-}
-
-.shop {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: self-start;
-    height: 850px;
-
-
-}
-
-.section7-h5 {
-    color: rgb(255, 0, 0);
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 29px
-}
-
-.section7-h2 {
-    color: rgb(7, 2, 17);
-    font-family: Merriweather;
-    font-size: 48px;
-    font-weight: 900;
-    line-height: 60px;
-    letter-spacing: 0%;
-}
-
-.section7-p{
-    color: rgba(7, 2, 17, 0.6);
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px
-}
-
-.section7 img {
-    width: 439.42px;
-    height: 425.16px;
-    margin: 5px;
-}
-.items{
-    height: 451.16px;
-}
-hr{
-    width: 1320px;
-    height: 0;
-    border: 1px solid rgba(255, 255, 255, 0.15);
 }
