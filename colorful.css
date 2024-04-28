@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .celebration {
@@ -445,4 +444,9 @@ address {
 }
 .items{
     height: 451.16px;
+}
+hr{
+    width: 1320px;
+    height: 0;
+    border: 1px solid rgba(255, 255, 255, 0.15);
 }
